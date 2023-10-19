@@ -11,7 +11,7 @@ void line_execute(char *_line, stack_t **prog_stack,
 		 unsigned int line_count, FILE *file)
 {
 instruction_t op_arr[] = {
-			  {"push", _push}, {"pall", _pall},
+			  {"push", _push}, {"pall", _pall}, {"pint", _pint},
 			  {NULL, NULL}
 };
 
