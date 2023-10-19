@@ -17,8 +17,7 @@ free_stack(*head);
 exit(EXIT_FAILURE);
 }
 printf("%d\n", temp->n);
-*head = (*head)->next;
-(*head)->prev = NULL;
+*head = temp->next;
 free(temp);
 temp = NULL;
 }
