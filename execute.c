@@ -12,7 +12,9 @@ void line_execute(char *_line, stack_t **prog_stack,
 {
 instruction_t op_arr[] = {
 			  {"push", _push}, {"pall", _pall}, {"pint", _pint},
-			  {"pop", _pop}, {"swap", _swap}, {NULL, NULL}
+			  {"pop", _pop}, {"swap", _swap},
+			  {"add", _add}, {"sub", _sub},
+			  {NULL, NULL}
 };
 
 unsigned int i = 0;
