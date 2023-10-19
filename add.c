@@ -3,7 +3,7 @@
  * _add - adds the top two elements of the stack
  * and store the value in the secind node then delete top node.
  * @head: pointer to stack head pointer
- * @counter:Number of line
+ * @line_number:Number of line
  * Return: no return
  */
 void _add(stack_t **head, unsigned int line_number)

@@ -2,7 +2,7 @@
 /**
  * _swap - adds the top two elements of the stack.
  * @head: pointer to the stack head pointer
- * @;ine_number: Number of line
+ * @line_number: Number of line
  * Return: no return
  */
 void _swap(stack_t **head, unsigned int line_number)

@@ -2,7 +2,7 @@
 /**
  * _pint - prints the top element of stack
  * @head: pointer to stack head pointer
- * @counter: Number of line
+ * @line_count: Number of line
  * Return: no return
  */
 void _pint(stack_t **head, unsigned int line_count)
