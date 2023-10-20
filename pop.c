@@ -16,7 +16,6 @@ free(prog_data.line);
 free_stack(*head);
 exit(EXIT_FAILURE);
 }
-printf("%d\n", temp->n);
 *head = temp->next;
 free(temp);
 temp = NULL;
