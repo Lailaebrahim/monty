@@ -14,7 +14,7 @@ instruction_t op_arr[] = {
 			  {"push", _push}, {"pall", _pall}, {"pint", _pint},
 			  {"pop", _pop}, {"swap", _swap},
 			  {"add", _add}, {"sub", _sub},
-			  {NULL, NULL}
+			  {"nop", _nop}, {NULL, NULL}
 };
 
 unsigned int i = 0;
