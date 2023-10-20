@@ -19,7 +19,7 @@ if (prog_data.arg[i] > 57 || prog_data.arg[i] < 48)
 flag = 1; }
 if (flag == 1)
 {
-fprintf(stderr, "L<%d>: usage: push integer\n", line_number);
+fprintf(stderr, "L%d: usage: push integer\n", line_number);
 free(prog_data.line);
 free_stack(*head);
 fclose(prog_data.file);
