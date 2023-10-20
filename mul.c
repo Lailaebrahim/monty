@@ -20,7 +20,7 @@ len++;
 
 if (len < 2)
 {
-fprintf(stderr, "L%d: can't add, stack too short\n", line_number);
+fprintf(stderr, "L%d: can't mul, stack too short\n", line_number);
 fclose(prog_data.file);
 free(prog_data.line);
 free_stack(*head);
